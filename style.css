@@ -1,41 +1,33 @@
 
     
  
-.bg-image{
+body{
     background-image: url("https://picsum.photos/1200/700.jpg");
-    /* height: 300px;
-    width:200px;
-    width: 100%; */
+    
 
-    background-size: 100% 100%; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
 }
+
+
 h3{
     text-align: center;
     padding-top: 10px;
     color: white;
 }
-.login{
-    width: 80%;
-    padding: 7px;
-    /* margin: 0 auto; */
-    border-radius: 10px;
-    background-color: red;
-    border: none;
-   
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: white;
-}
+
 .form{
-    position:absolute;
-    margin-top:5%;
-    margin-left: 40%;
-    margin-bottom: 5%;
-    background-color: black;
-    width: 25%;
-    padding: 10px;
-    height: 70%;
+ 
+   
+    background-color:rgba(0,0,0 ,0.7);
+    width: 350px;
+    margin: 20% auto;
+    box-shadow: 5px 10px 15px 5px;
+    height:350px
+
+
   
 }
 h6{
@@ -69,7 +61,7 @@ img{
     height: 120px;
     padding-left: 35%;
     margin-top: -20%;
-    /* margin:calc(50%-50px); */
+ 
 
 }
 label{
@@ -78,4 +70,18 @@ label{
     margin-top: 10px;
     font-family: sans-serif;
 
+}
+button{
+ 
+    width: 280px;
+    padding: 10px;
+    font-style: normal;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    font-size: medium;
+    margin-left: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
