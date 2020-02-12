@@ -1,0 +1,81 @@
+
+    
+ 
+.bg-image{
+    background-image: url("https://picsum.photos/1200/700.jpg");
+    /* height: 300px;
+    width:200px;
+    width: 100%; */
+
+    background-size: 100% 100%; 
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.login{
+    width: 80%;
+    padding: 7px;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+   
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.form{
+    position:absolute;
+    margin-top:5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    background-color: black;
+    width: 25%;
+    padding: 10px;
+    height: 70%;
+  
+}
+h6{
+    color:grey;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 2px;
+    margin-left: 30px;
+}
+h3{
+    color: white;
+    font-family: sans-serif;
+   
+}
+input{
+    background-color:transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    outline: none;
+    color: white;
+
+}
+img{
+    width: 120px;
+    height: 120px;
+    padding-left: 35%;
+    margin-top: -20%;
+    /* margin:calc(50%-50px); */
+
+}
+label{
+    margin-left: 30px;
+    color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
